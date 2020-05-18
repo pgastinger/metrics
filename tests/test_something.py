@@ -6,6 +6,3 @@ def test_foo():
 def test_bar():
     assert True
 
-
-def test_fail():
-    assert False
