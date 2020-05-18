@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "py37venv_django_metrics_poetry"
+version = "0.1.0"
+description = ""
+authors = ["Peter Gastinger <peter.gastinger@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^3.0.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.2"
+pytest-cov = "^2.8.1"
+pytest-django = "^3.9.0"
+pytest-xdist = "^1.32.0"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
