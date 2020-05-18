@@ -7,5 +7,5 @@ def test_bar():
     assert True
 
 
-def fail():
+def test_fail():
     assert False
