@@ -5,3 +5,7 @@ def test_foo():
 
 def test_bar():
     assert True
+
+
+def fail():
+    assert False
